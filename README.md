@@ -1,28 +1,13 @@
-# ETH Block Explorer based off github.com/etherparty/explorer
-
-![ETH Block Explorer Screenshot](https://i.imgur.com/8dPnAct.jpg)
-
-## Demo
-
-[https://explorer.ethorbit.com/](https://explorer.ethorbit.com/)
+# Block and Transaction Statistic
 
 ## License
 
 The code in this branch is licensed under GPLv3 (see LICENSE file)
 Feel free to modify or reuse the code here.
-
-## Reddit
-
-Discuss this project at: [Reddit Page on /r/ethreum](https://www.reddit.com/r/ethereum/comments/7lwft2/new_ethereum_block_explorer_updated_version_of/)
-
-## Donations
-
-ETH Address: 0x1BDA9C6A37ECd91940df1E7559A8403ecE9806D1
-
 ## Installation
 
 ```
-git clone https://github.com/sthnaqvi/explorer
+git clone https://github.com/brilliantdev5/statistic-transaction
 npm install
 bower install
 npm start
@@ -52,4 +37,4 @@ Then visit http://localhost:8000 in your browser of choice after you npm start t
 - Realtime latest blocks and recent transactions
 - Other random blockchain info stats were added
 
-_If you want to disable auto refresh/auto new block show, just comment line no 13-22 at: [app/scripts/controllers/mainController.js](https://github.com/sthnaqvi/explorer/blob/3a08032fc8550a863ae49acf0bdd45bfe2d961d1/app/scripts/controllers/mainController.js#L13-L22)_
+_If you want to disable auto refresh/auto new block show, just comment line no 13-22 at: [app/scripts/controllers/mainController.js]
